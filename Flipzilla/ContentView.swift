@@ -14,6 +14,7 @@ extension View {
     }
 }
 
+
 struct ContentView: View {
 
     @State private var cards = Array<Card>(repeating: Card.example, count: 6)

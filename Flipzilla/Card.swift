@@ -13,3 +13,4 @@ struct Card {
 
     static let example = Card(prompt: "Who was the 2nd US President?", answer: "John Adams (1797-1801)")
 }
+

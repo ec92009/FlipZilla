@@ -16,6 +16,7 @@ struct CardView: View {
     @Environment(\.accessibilityDifferentiateWithoutColor) var differentiateWithoutColor
     @Environment(\.accessibilityVoiceOverEnabled) var voiceOverEnabled
 
+    
     @State private var isShowingAnswer = false
     @State private var offset = CGSize.zero
 
